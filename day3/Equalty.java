@@ -6,12 +6,11 @@ public class Equalty {
         int b = sc.nextInt();
         if (a == b ) {
             System.out.println("Equal number");
-        }else{
-            if (a > b) {
+        }else if (a > b) {
                 System.out.println("a is grater");
-            }else{
+        }else{
                 System.out.println("b is lower");
-            }
+            
         }
 sc.close();
     }
