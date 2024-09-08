@@ -37,3 +37,11 @@ class fourthClass{
         }
     }
 }
+// This examplepro gram that counts to 100 by tens: 
+class fifthClass{
+    public static void main(String[] args){
+        for (int i = 0; i <= 100; i += 10) {
+            System.out.println(i);
+          } 
+    }
+}
