@@ -14,7 +14,7 @@ class secondClasss{
     }
 }
 
-// This example will only print even values between 0 and 10:
+// This example for nested loop:
 class thirdClass{
     public static void main(String[] args){
         // Outer loop
@@ -26,5 +26,14 @@ for (int i = 1; i <= 2; i++) {
       System.out.println(" Inner: " + j); // Executes 6 times (2 * 3)
     }
   } 
+    }
+}
+// This example for-each loop:
+class fourthClass{
+    public static void main(String[] args){
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        for (String i : cars) {
+          System.out.println(i);
+        }
     }
 }
