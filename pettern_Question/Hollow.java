@@ -1,4 +1,4 @@
-public class Pattern7 {
+public class Hollow {
     public static void main(String[] args) {
         int n = 5;
         for (int i = 1; i <= n; i++) {
