@@ -9,7 +9,6 @@ class holloq_ractengle {
             }else{
                 System.out.print( "   ");
             }
-
         }
         System.out.println();
     }
