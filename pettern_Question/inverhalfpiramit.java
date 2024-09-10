@@ -10,5 +10,6 @@ public class inverhalfpiramit {
             }
             System.out.println( );
         }
+        sc.close();
     }
 }
