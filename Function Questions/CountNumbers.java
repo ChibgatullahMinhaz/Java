@@ -9,9 +9,8 @@ public class CountNumbers {
         int zeroCount = 0;
 
         while (true) {
-            System.out.print("Enter a number (or type 'exit' to finish): ");
             String input = sc.nextLine();
-
+            System.out.print("Enter a number (or Type exit to Finish: )");
             if (input.equalsIgnoreCase("exit")) {
                 break;
             }
@@ -24,8 +23,9 @@ public class CountNumbers {
                 } else {
                     zeroCount++;
                 }
-            } catch (NumberFormatException e) {
-                System.out.println("Please enter a valid number.");
+
+            } catch (Exception e) {
+                System.out.print("Invalid input, please enter a number.");
             }
         }
         // Display the counts
