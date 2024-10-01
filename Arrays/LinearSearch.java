@@ -11,12 +11,13 @@ public static void main(String[] args) {
     }
     System.out.println("Enter Searching Value : ");
     int x = sc.nextInt();
-    boolean found = false;
+  boolean found = false;
+
      for (int i = 0; i < numbers.length; i++) {
         if (numbers[i] == x) {
             System.out.println("x found index of : " + i);
-            found = true;
-            break;
+          found = true;
+          break;
         }
      }
      if (!found) {
