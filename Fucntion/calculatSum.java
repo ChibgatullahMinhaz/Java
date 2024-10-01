@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class calculatSum {
-    public static int calculatSum(int a, int b) {
+    public static int CalculatSum(int a, int b) {
         int sum = a + b;
         return sum;
     }
@@ -10,7 +10,7 @@ public class calculatSum {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        int sum = calculatSum(a, b);
+        int sum = CalculatSum(a, b);
         System.out.println("sum of tow number : " + sum);
         scanner.close();
     }

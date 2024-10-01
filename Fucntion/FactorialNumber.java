@@ -1,6 +1,6 @@
 import java.util.*;
 class FactorialNumber {
-    public static void FactorialNumber(int n){
+    public static void getFactorialNumber(int n){
         if (n < 0 ) {
             System.out.println("invalid Number");
             return;
@@ -16,7 +16,7 @@ class FactorialNumber {
         Scanner sc = new Scanner(System.in);
         System.err.println("enter number: ");
         int n = sc.nextInt();
-        FactorialNumber(n);
+        getFactorialNumber(n);
         sc.close();
     }
 }
