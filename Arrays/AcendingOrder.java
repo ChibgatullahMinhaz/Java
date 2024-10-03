@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Arrays {
+public class AcendingOrder {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
@@ -24,6 +24,6 @@ public class Arrays {
         } else {
             System.out.println("The array is not sorted in ascending order");
         }
-
+        sc.close();
     }
 }
