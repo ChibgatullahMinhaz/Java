@@ -6,19 +6,17 @@ public class AcendingOrder {
         int size = sc.nextInt();
         int numbers[] = new int[size];
 
-        // input
         for (int i = 0; i < size; i++) {
             numbers[i] = sc.nextInt();
         }
 
         boolean isAscending = true;
 
-        for (int i = 0; i < numbers.length - 1; i++) { // NOTICE numbers.length - 1 as termination condition
-            if (numbers[i] > numbers[i + 1]) { // This is the condition for descending order
+        for (int i = 0; i < numbers.length - 1; i++) { 
+            if (numbers[i] > numbers[i + 1]) {
                 isAscending = false;
             }
         }
-
         if (isAscending) {
             System.out.println("The array is sorted in ascending order");
         } else {
