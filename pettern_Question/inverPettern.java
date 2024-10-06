@@ -1,6 +1,9 @@
+import java.util.*;
 public class inverPettern {
     static void main(String[] args) {
-        int n = 4;
+        Scanner scanner = new Scanner(System.in);
+        
+        int n = scanner.nextInt();
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n - 1; j++) {
                 System.out.print(" ");
@@ -10,5 +13,7 @@ public class inverPettern {
             }
             System.out.println();
         }
+        scanner.close();
     }
+
 }
