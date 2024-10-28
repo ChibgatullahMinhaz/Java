@@ -3,6 +3,7 @@ public class HomeWorkArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int size = scanner.nextInt();
+        
         String names[] = new String[size];
         // inputs
         for (int i = 0; i <= size; i++) {
